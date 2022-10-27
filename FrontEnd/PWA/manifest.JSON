@@ -1,0 +1,17 @@
+{
+  "name": "GCMemes PWA",
+  "short_name": "GCMemes PWA",
+  "start_url": "MaterialDesignTemplate.html",
+  "display": "standalone",
+  "background_color": "#2F3BA2",
+  "description": "A memes app where you can find memes, tweets and fails and also you can add some pics and choose between memes, tweets or fails",
+  "icons": [{
+    "src": "img/GC_logo.png",
+    "sizes": "152x152",
+    "type": "image/jfif"
+  }, {
+    "src": "img/landscape_placeholder.gif",
+    "sizes": "152x152",
+    "type": "image/gif"
+  }]
+}

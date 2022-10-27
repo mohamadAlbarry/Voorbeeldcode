@@ -1,0 +1,80 @@
+body {
+    background-image: repeating-linear-gradient(0deg, transparent 0px, transparent 25px,hsla(332,66%,49%,0.1) 25px, hsla(332,66%,49%,0.1) 27px,transparent 27px, transparent 51px),repeating-linear-gradient(90deg, transparent 0px, transparent 25px,hsla(332,66%,49%,0.1) 25px, hsla(332,66%,49%,0.1) 27px,transparent 27px, transparent 51px),repeating-linear-gradient(90deg, transparent 0px, transparent 50px,hsla(193,5%,69%,0.1) 50px, hsla(193,5%,69%,0.1) 52px,transparent 52px, transparent 102px),repeating-linear-gradient(0deg, transparent 0px, transparent 50px,hsla(193,5%,69%,0.1) 50px, hsla(193,5%,69%,0.1) 52px,transparent 52px, transparent 102px),repeating-linear-gradient(0deg, hsla(26,76%,62%,0.1) 0px, hsla(26,76%,62%,0.1) 2px,transparent 2px, transparent 102px),repeating-linear-gradient(90deg, hsla(26,76%,62%,0.1) 0px, hsla(26,76%,62%,0.1) 2px,transparent 2px, transparent 102px),linear-gradient(90deg, rgb(109, 18, 84),rgb(76, 43, 103));
+    color: white;
+    margin: 0;
+    font-family: rubik;
+}
+
+.poke_container {
+	display: grid;
+	margin: 0 auto;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 20px;
+    padding-inline-start: 0;
+}
+#poke_container {     padding-left: 1.7em;}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 55px;
+}
+
+#pokedex {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 20px;
+    padding-inline-start: 0;
+}
+
+.popup > .card{float: initial; width: 50%; margin-left: 21%;}
+
+.card {
+    
+        list-style: none;
+        padding: 40px;
+        background-color: #f4f4f4;
+        color: #222;
+        float: left;
+        width: 150px;
+        text-align: center;
+        margin: 10px;
+        height:17em;
+}
+
+.card:hover {
+    animation: bounce 0.5s linear;
+}
+
+
+.card-title {
+    text-transform: capitalize;
+    margin-bottom: 0px;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+.card-subtitle {
+    margin-top: 5px;
+    color: #666;
+    font-weight: lighter;
+}
+
+.card-image {
+    height: 180px;
+}
+
+@keyframes bounce {
+    20% {
+        transform: translateY(-6px);
+    }
+    40% {
+        transform: translateY(0px);
+    }
+
+    80% {
+        transform: translateY(-2px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
